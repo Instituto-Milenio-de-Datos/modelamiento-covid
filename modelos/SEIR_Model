@@ -1,1 +1,25 @@
+SEIR_discrete_Expo <- function(beta,days, y, parameters){
+   with(as.list(c(state, parameters)), {
+outD<-NULL     
+S <- y[1];E <- y[2];I <- y[3]; IS<-y[4]; H<-y[5]; R <- y[6];C <- y[7]; CC<-y[8]; D <- y[9]; 
+  	gamma<-1/exposed;
+for (n in 1:days){
+     beto<-beta
+     
+    So<-S;Eo<-E;Io<-I; ISo<-IS;Ho<-H;Ro<-R;Co<-C;CCo<-CC;Do<-D;
+    
+    S<- So- beto*So*(Io+IS)/N              
+    E<- Eo+ beto*So*(Io+IS)/N  -gamma*Eo
+    I<- Io+ gamma*Eo -p1*Io - (1-p1)*y1*Io 
+    IS<-ISo +p1*Io   -p2*ISo- (1-p2)*y2*ISo 
+    H<- Ho  +p2*ISo  -m*Ho - (1-m)*y3*Ho
+    R<- Ro+ (1-p1)*y1*Io + (1-p2)*y2*ISo +(1-m)*y3*Ho
+    C<- p1*Io
+    CC<-CCo+p1*Io
+    D<- Do+ m*Ho
+    N<-S+E+I+IS+H+R+D
+    outD<-rbind(outD,c(n,S,E,I,IS,H,R,C,CC,D,N,beto))}
+    list(data.frame(outD))
+
+})}
 
