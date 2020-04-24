@@ -1,3 +1,5 @@
+#MODELO SEIR COVID
+
 SEIR_discrete_Expo <- function(beta,days, y, parameters){
    with(as.list(c(state, parameters)), {
 outD<-NULL     
