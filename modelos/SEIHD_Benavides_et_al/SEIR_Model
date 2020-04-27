@@ -1,13 +1,33 @@
-#MODELO SEIR COVID
+##MODELO SEIHD EN TIEMPO DISCRETO PROGRAMADO EN R
+
+##1. PARAMETROS DEL MODELO
+
+END<-100	#Numero de dias para correr el modelo
+days<-END
+POP<-7112808    # Población Región Metropolitana
+parameters <- c(exposed=5,N=POP,m=0.01,p1=0.75,p2=0.14,y1=0.09,y2=0.09,y3=0.1)
+state<- c(POP-10,0,10,0,0,0,0,0,0)  #Se inicia con 10 Infectados en la Población
+beta<- 0.3     #Tasa de contactos * Contactos infecciosos
+
+#2. ESTRUCTURA DEL MODELO 
 
 SEIR_discrete_Expo <- function(beta,days, y, parameters){
    with(as.list(c(state, parameters)), {
 outD<-NULL     
-S <- y[1];E <- y[2];I <- y[3]; IS<-y[4]; H<-y[5]; R <- y[6];C <- y[7]; CC<-y[8]; D <- y[9]; 
-  	gamma<-1/exposed;
+S <- y[1];     #Susceptibles
+E <- y[2];     #EXPUESTOS/LATENTES
+I <- y[3];     #INFECTADOS ASINTOMATICOS. Transición de E a I por parametro beto
+IS<- y[4];     #INFECTADOS SINTOMATICOS.  Transición de I a IS por parametro p1
+H<-  y[5];     #HOSPITALIZADOS            Transición de IS a H por parametro p2
+R <- y[6];     #RECUPERADOS               Recuperación de I, IS y H con parametros y1, y2 e y3
+C <- y[7];     #NUEVOS CASOS
+CC<- y[8];     #CASOS ACUNULADOS
+D <- y[9];     #MUERTES                   Fallecidos de Hospitalizados con tasa m
+
+gamma<-1/exposed;  # gamma es inverso de días de incubación (exposed)
 for (n in 1:days){
-     beto<-beta
-     
+    
+    beto<-beta     # Modelo con crecimiento exponencial
     So<-S;Eo<-E;Io<-I; ISo<-IS;Ho<-H;Ro<-R;Co<-C;CCo<-CC;Do<-D;
     
     S<- So- beto*So*(Io+IS)/N              
@@ -25,3 +45,13 @@ for (n in 1:days){
 
 })}
 
+
+##3.  VISUALIZACIÓN DE LOS DATOS
+
+DIS<-data.frame(SEIR_discrete_Expo(beta,days,y=state,parameters))                        ## CORRER EL MODELO
+plot(DIS[,9]~seq(1:END),ylab="Casos Acumulados",xlab="days",ylim=c(0,10000))           ## GRAFICO CURVA DE CASOS ACUMULADOS (DIS[,9])
+
+
+#4. FIT DEL MODELO A LOS DATOS DE INCIDENCIA REPORTADOS
+
+##EN PROCESO
