@@ -6,7 +6,8 @@ END<-100	#Numero de dias para correr el modelo
 days<-END
 POP<-7112808    # Población Región Metropolitana
 parameters <- c(exposed=5,N=POP,m=0.01,p1=0.75,p2=0.14,y1=0.09,y2=0.09,y3=0.1)
-state<- c(POP-10,0,10,0,0,0,0,0,0)  #Se inicia con 10 Infectados en la Población
+I_inc<- 10      #Numero infectados Iniciales
+state<- c(POP-I_inc,0,I_inc,0,0,0,0,0,0)  #Se inicia con 10 Infectados en la Población
 beta<- 0.3     #Tasa de contactos * Contactos infecciosos
 
 #2. ESTRUCTURA DEL MODELO 

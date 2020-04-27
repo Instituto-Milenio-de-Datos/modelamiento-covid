@@ -1,0 +1,14 @@
+##1. PARAMETROS DEL MODELO SEIHD
+
+END<-100	#Numero de dias para correr el modelo
+days<-END
+POP<-7112808    # Población Región Metropolitana
+exposed=5       # Periodo de Incubación 
+m=0.01          # Tasa mortalidad de Hospitalizados
+p1=0.75         # Tasa de infectados que presenta sintomas
+p2=0.14         # Tasa de sintomaticos que requeire hospitalización 
+y1=0.09         # Tiempo de recuperación de pacientes asintomaticos = 11 dias
+y2=0.09         # Tiempo de recuperación de pacientes sintomaticos = 11 dias
+y3=0.1          # Tiempo de tratamiento en el hospital
+I_inc<- 10      # Numero infectados Iniciales
+beta<- 0.3      # Tasa de contactos * Contactos infecciosos
