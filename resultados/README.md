@@ -1,1 +1,0 @@
-# Carpeta para compartir resultados

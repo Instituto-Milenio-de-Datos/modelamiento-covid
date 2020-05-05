@@ -1,1 +1,20 @@
 # Carpeta para compartir datos
+
+Esta carpeta es para compartir archivos de datos para correr modelos COVID-19, incluyendo: 
+ - Datos para tu modelos 
+ - Datos potencialmente útiles
+ - Links a otros repositorios
+ 
+## Como contribuir
+
+Cuando subas una base de datos, por favor incluye en la lista de contribuciones, los siguiente: 
+
+ - Nombre base de datos
+ - Breve descripción de dos o tres lineas
+ - (Optativo) Tu nombre o nombre del grupo al que perteneces (afiliación)
+
+## Lista de contribuciones
+
+ 1. **[Datos CoVID-19 Ministerio Ciencias](http://www.minciencia.gob.cl/covid19)**: Datos epidemiológicos provenientes del Ministerio de Salud. Descripción de datos en link.
+ 2. **[Portal datos público Chile](http://datos.gob.cl/)**: Datos públicos de gobierno, potencialmente útiles para modelación (e.g., encuesta origen-destino). 
+
