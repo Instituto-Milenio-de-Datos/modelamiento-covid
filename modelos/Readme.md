@@ -1,14 +1,12 @@
-# Para cada equipo, crear una carpeta con el nombre del modelo, agregar un archivo correspondiente a las 'parametros',  'presentaciones' y 'datos'
+# Directorio para compartir distintos modelos
 
+## Cómo agregar un nuevo modelo
+Para cada grupo, crear una carpeta con el nombre del modelo, dentro de la cual debe haber un archivo `README.md` que describa el modelo en detalle. Es bueno que ese archivo referencie a otros archivos correspondiente a los 'parametros', 'presentaciones' y 'datos', que estén en las carpetas correspondientes. Se recomienda explicar los modelos siguiendo la siguiente estructura:
 
+ 1. Estructura del modelo
 
-# Se solicita formatear los modelos de la siguiente manera:
+ 2. Parametros Iniciales
 
-1_ Estructura del modelo
+ 3. Plot de los resultados
 
-2_ Parametros Iniciales
-
-3_ Plot de los resultados
-
-4_ Fit a datos (si se realiza)
-
+ 4. Fit a datos (si se realiza)
