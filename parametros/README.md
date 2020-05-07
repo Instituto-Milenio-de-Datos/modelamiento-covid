@@ -1,6 +1,6 @@
 # Carpeta para compartir parámetros
 
-Esta carpeta es para compartir parámetros que usados en los [modelos](reportes/) de los distintos grupos, o bien, resúmenes de parámetros o links repositorios de modelación CoVID-19 potencialmente útiles.  
+Esta carpeta es para compartir parámetros que usados en los [modelos](modelos/) de los distintos grupos, o bien, resúmenes de parámetros o links repositorios de modelación CoVID-19 potencialmente útiles.  
  
 ## Como contribuir
 
