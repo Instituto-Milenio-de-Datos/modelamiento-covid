@@ -11,11 +11,8 @@ Predicción del impacto de diferentes medidas de cuarentena utilizando modelo S-
 ## Qué incluye
 
  - [x] [Código en R con comentarios](SEIHR_COVID_Chile/)
-
  - [x] [Presentación](presentaciones/)
-
  - [x] [Parámetros](parametros/)
-
  - [ ] Reporte *pendiente*
 
 
