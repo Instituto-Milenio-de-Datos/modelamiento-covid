@@ -1,3 +1,4 @@
+
 # Modelo S-E-I-H-R-D
 Predicción del impacto de diferentes medidas de cuarentena utilizando modelo S-E-I-H-R-D
 
@@ -9,10 +10,14 @@ Predicción del impacto de diferentes medidas de cuarentena utilizando modelo S-
 |Fernando Mardones|Escuela Medicina UC
 ## Qué incluye
 
-[Código en R con comentarios](https://github.com/Instituto-Milenio-de-Datos/modelamiento-covid/blob/master/modelos/SEIHD_Benavides_et_al/SEIHR_COVID_Chile)
-[Presentación](https://github.com/Instituto-Milenio-de-Datos/modelamiento-covid/tree/master/presentaciones)
-[Parámetros](https://github.com/Instituto-Milenio-de-Datos/modelamiento-covid/tree/master/parametros)
-Reporte *pendiente*
+ - [x] [Código en R con comentarios](SEIHR_COVID_Chile/)
+
+ - [x] [Presentación](presentaciones/)
+
+ - [x] [Parámetros](parametros/)
+
+ - [ ] Reporte *pendiente*
+
 
 ## Antecedentes
 - Modelo basado en Turchin 2020 (código Mauricio Lima).
