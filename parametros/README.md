@@ -1,10 +1,10 @@
 # Carpeta para compartir parámetros
 
-Esta carpeta es para compartir parámetros que usados en los [modelos](modelos/) de los distintos grupos, o bien, resúmenes de parámetros o links repositorios de modelación CoVID-19 potencialmente útiles.  
+Esta carpeta es para compartir parámetros que usados en los [modelos](/modelos/) de los distintos grupos, o bien, resúmenes de parámetros o links repositorios de modelación CoVID-19 potencialmente útiles.  
  
 ## Como contribuir
 
-Cuando suba su [modelo](modelos/) o [reporte](reportes/), por favor incluya un documento en esta sección con una breve lista de los parámetros más importantes que está usando.
+Cuando suba su [modelo](/modelos/) o [reporte](/reportes/), por favor incluya un documento en esta sección con una breve lista de los parámetros más importantes que está usando.
 Recuerde indicar su contribución en la lista de abajo, con una breve descripción. Si quiere contribuir con un link a otro repositorio o un resumen de parámetros, incluya también una descripción.
 
 ## Lista de contribuciones
