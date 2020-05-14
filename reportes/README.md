@@ -15,14 +15,45 @@ Puede subir o poner links a sus reportes de CoVID-19. Recuerde indicar su contri
 
  1. **Place holder**. Descripción
  
-## Grupo CMM-AM2V
+## Grupo [CMM-AM2V-CEPS](http://covid-19.cmm.uchile.cl/)
 
-Estimación de la máxima demanda de instalaciones sanitarias críticas
-para el brote de COVID-19 en Santiago, Chile
+## [Reporte 5](Reporte5_CMM_AM2V_CEPS-VF.pdf)
 
-29 de marzo 2020
+Autores: Claudia Alvarez, Alonso Cancino, Carla Castillo, Taco de Wolff, Pedro Gajardo, Rodrigo Lecaros, Jaime Ortega, Axel Osses, Héctor Ramírez, Nicolás Valenzuela.
 
-### Resumen:
+## Resumen
+
+En este documento se modelaron diferentes escenarios relacionados con la apertura de escuelas en tres regiones del país: Metropolitana, Antofagasta y Valparaíso. Para ello se utilizó una variante del modelo matemático de los informes anteriores, en el cual se incluye la estructura de edades de la población. Simulamos la apertura progresiva de las escuelas en un plazo aproximado de un mes, hasta llegar a distintos escenarios: 100%, 75%, 50% y 25% de su capacidad escolar. Además, estos escenarios se simulan para distintos esfuerzos futuros en el rastreo de contacto y el aislamiento.
+
+## [Reporte 4](Reporte4_CMM_AM2V_CEPS.pdf)
+
+Autores: Alonso Cancino, Carla Castillo, Taco de Wolff, Pedro Gajardo, Rodrigo Lecaros, Claudio Muñoz, Jaime Ortega, Héctor Ramírez, Nicolás Valenzuela.
+
+## [Resumen](COVID-19_Reporte4_CMM_AM2V_CEPS_resumen_es.pdf)
+
+En este documento estimamos la capacidad máxima de camas en la UCI (unidad de cuidados intensivos) requerida por cuatro regiones chilenas (Arica, Ñuble, Araucanía, Magallanes) durante el brote de COVID-19. Para ello, utilizamos el modelo epidemiológico compartimentado introducido en el Reporte #2  con el fin de simular los efectos de las estrategias presentadas en nuestro anterior Reporte #3: cuarentena y la estrategia consistente en el rastreo de contactos y el aislamiento.
+
+## [Reporte 3](Reporte3_CMM_AM2V_CEPS.pdf)
+
+Autores: Alonso Cancino, Carla Castillo, Pedro Gajardo, Rodrigo Lecaros, Claudio Muñoz, Jaime Ortega, Héctor Ramírez.
+
+## [Resumen](COVID-19_Reporte3_CMM_AM2V_CEPS_es.pdf)
+
+En este documento utilizamos el modelo epidemiológico compartimentado introducido en el Reporte #2, con el fin de estimar la capacidad máxima de camas de UCI (unidad de cuidados intensivos) requerida por una ciudad (Santiago de Chile) durante el brote de COVID-19, bajo la acción de tres clases de estrategias. La demanda máxima de camas de UCI se presenta como un resultado de nuestro modelo, para la estrategia de cierre, la estrategia consistente en el rastreo de contactos y el aislamiento, y una combinación de ambas medidas de mitigación.
+
+## [Reporte 2](Reporte2_CMM_AM2V_CEPS.pdf) **27 de marzo 2020**
+
+Autores: Alonso Cancino, Carla Castillo, Pedro Gajardo, Rodrigo Lecaros, Claudio Muñoz, César Naranjo, Jaime Ortega, Héctor Ramírez.
+
+## [Resumen](COVID-19_Reporte2_CMM_AM2V_CEPS_resumen_es.pdf)
+
+En este documento proponemos un modelo epidemiológico compartimentado para estimar la capacidad máxima de camas en la UCI (unidad de cuidados intensivos) requerida por una ciudad (Santiago de Chile) durante el brote de COVID-19. El modelo propuesto es una variación de los presentados en el Reporte # 1, que incluye ahora una variable de estado adicional: personas asintomáticas o con síntomas leves (no detectados), que según la literatura reciente es un grupo clave en la transmisión de esta enfermedad. La demanda máxima de camas en la UCI se presenta como un resultado de nuestro modelo, para diferentes valores del número reproductivo básico R0, que se interpreta como diferentes escenarios después de las medidas de mitigación. A efectos de comparación, también mostramos los resultados obtenidos con un segundo modelo (proporcionado por [2]) que incluye una estructura edad- clase.
+
+## [Reporte 1](Reporte1_CMM_AM2V.pdf) **29 de marzo 2020**
+
+Autores:  Alonso Cancino, Pedro Gajardo, Rodrigo Lecaros, Claudio Muñoz, Héctor Ramírez, Jaime Ortega
+
+[Resumen](COVID-19_Reporte1_CMM_AM2V_resumen_es.pdf)
 
  En este documento proponemos un modelo epidemiológico compartimentado para
 estimar la demanda máxima de los establecimientos de atención médica crítica que necesita
@@ -33,13 +64,8 @@ Consideramos dos clases de estas estrategias: i) testeo, aislamiento y rastreo d
 medidas de distanciamiento. En este reporte sólo damos resultados para las simulaciones de la
 estrategia (i).
 
-### Autores:  
 
-Alonso Cancino, Pedro Gajardo, Rodrigo Lecaros, Claudio Muñoz, Héctor Ramírez, Jaime Ortega
-Instituciones: Centro de Modelamiento Matemático - CMM (Universidad de Chile), Grupo de Análisis y Modelamiento Matemático de Valparaíso - AM2V (Universidad Técnica Federico Santa María)
 
-### Archivos:
 
-[Reporte 1](Reporte1_CMM_AM2V.pdf)
 
-[Resumen](COVID-19_Reporte1_CMM_AM2V_resumen_es.pdf)
+
