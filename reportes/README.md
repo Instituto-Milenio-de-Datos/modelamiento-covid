@@ -1,3 +1,4 @@
+
 # Carpeta para compartir reportes
 
 Esta carpeta es para compartir reportes de los ejercicios de modelación y resultados estimados para la epidemia de CoVID-19 en Chile.
@@ -14,3 +15,4 @@ Puede subir o poner links a sus reportes de CoVID-19. Recuerde indicar su contri
 ## Lista de contribuciones
  
  - [x] Grupo [CMM-AM2V-CEPS](http://covid-19.cmm.uchile.cl/). Todos los reportes y sus descripciones están en la carpeta [CMM](CMM/)
+ - [x] Mauricio Lima SIRD. Reportes y descripción están en carpeta [SIRD_Lima](SIRD_Lima/)
