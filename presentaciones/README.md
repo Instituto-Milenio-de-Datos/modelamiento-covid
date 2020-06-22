@@ -1,3 +1,4 @@
+
 # Carpeta para compartir presentaciones
 
 Esta carpeta es para compartir presentaciones de modelos y resultados de CoVID-19.   
@@ -14,7 +15,14 @@ Puede subir presentaciones que haya usado para describir su modelo o sus resulta
  Si quiere contribuir con un link, incluya también una descripción.
 
 ## Lista de contribuciones
-
- 1. **Desafíos para modelar y predecir la Epidemia de COVID-19 en Chile 16-17 abril**. Seminario online en el que 16 grupos de investigadores presentaron resultados preliminares de modelación CoVID-19 en Chile. [16 abril](https://www.youtube.com/watch?v=Gdc6MY8cZWA&feature=youtu.be) y [17 de abril](https://www.youtube.com/watch?v=Gnib4Gly6DM&feature=youtu.be)
- 2. **Programa Webinario CoVID19**: Programa del Webinario online "Desafíos para modelar y predecir la Epidemia de COVID-19 en Chile".
+### Linea Modelos Predictivos
+Mesa de Trabajo Interdisciplinaria de la Mesa Social COVID-19
+ 1. **Programa 1er Webinario CoVID19**: Programa del Webinario online "Desafíos para modelar y predecir la Epidemia de COVID-19 en Chile".
+ 2. **Desafíos para modelar y predecir la Epidemia de COVID-19 en Chile 16-17 abril**. Seminario online en el que 16 grupos de investigadores presentaron resultados preliminares de modelación CoVID-19 en Chile. 
+El seminario está disponible en youtube: [16 de abril](https://www.youtube.com/watch?v=Gdc6MY8cZWA&feature=youtu.be) y [17 de abril](https://www.youtube.com/watch?v=Gnib4Gly6DM&feature=youtu.be)
+ 3. **Programa 2do Webinario CoVID19**: Programa del Webinario online "Desafíos para modelar y predecir la Epidemia de COVID-19 en Chile".
+Detalles del programa están disponibles en [CMM UChile](http://eventos.cmm.uchile.cl/2wcovid19/)
+ 4. **Workshop sobre modelamiento aplicado al COVID-19 en Chile**. Seminario online en el que 14 grupos de investigadores presentaron resultados de modelación CoVID-19 en Chile. 
+ El seminario está disponible en youtube: [18 de junio](https://www.youtube.com/watch?v=eRy1FchlyVI&feature=youtu.be) y [19 de junio](https://www.youtube.com/watch?v=8mhI59xOYHQ&feature=youtu.be).
+ 
 
