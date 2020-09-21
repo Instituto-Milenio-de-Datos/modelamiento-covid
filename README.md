@@ -1,3 +1,4 @@
+
 # Grupo Modelación Covid-19
 Repositorio para compartir modelos/datos/parámetros sobre COVID-19 de forma ordenada para tener un lugar centralizado con todo el material y poder comparar modelos y resultados.
 
@@ -21,5 +22,9 @@ Si contribuyes al proyecto, agregate a la lista!
 |nombre|Afiliación|
 |--|--|
 |[Martín Ugarte](https://martinugarte.com)|[Instituto Milenio Fundamentos de los Datos](https://imfd.cl)|
+|Pedro Gajardo|Ingeniería Universidad Técnica Federico Santa María
+|Mauricio Lima|Biología UC
+|Fernando Mardones|Veterinaria UC 
+|Eduardo Undurraga|UC, [MICROB-R](https://www.microb-r.org/) 
+|Pablo Marquet|Biología UC
 |Julio Benavides|Universidad Andrés Bello|
-|Eduardo Undurraga|UC, Núcleo Milenio [MICROB-R](https://www.microb-r.org/) 
